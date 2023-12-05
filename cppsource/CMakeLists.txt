@@ -40,6 +40,7 @@ enable_testing()
 
 include_directories(include)
 include_directories(../3rdparty/fpm/include)
+include_directories(../3rdparty/tclap/include)
 
 find_library(WIRINGPI_LIBRARIES NAMES wiringPi)
 if(NOT WIRINGPI_LIBRARIES)
@@ -87,8 +88,4 @@ gtest_discover_tests(svm_test_fp)
 add_custom_target(main)
 add_dependencies(main infer7)
 
-target_include_directories(infer7 PRIVATE 3rdparty/fpm/include)
-target_include_directories(infer7a PRIVATE 3rdparty/fpm/include)
-target_include_directories(svm_test PRIVATE 3rdparty/fpm/include)
-target_include_directories(svm_test_fp PRIVATE 3rdparty/fpm/include)
 

@@ -1,3 +1,7 @@
 [submodule "3rdparty/fpm"]
 	path = 3rdparty/fpm
 	url = https://github.com/MikeLankamp/fpm
+[submodule "3rdparty/tclap"]
+	path = 3rdparty/tclap
+	url = https://github.com/mirror/tclap
+	branch = 1.4
