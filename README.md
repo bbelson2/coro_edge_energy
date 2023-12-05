@@ -34,6 +34,17 @@ The repository is structured as follows:
 
 The C++ source builds and runs on the target platforms (Raspberry Pi 4 B & Raspberry Pi 3 B+) and on Windows 11 WSL2 Ubuntu. The Python source runs on Windows 11 and the Jupyter notebooks run on Windows 11 with Python 3.9+.
 
+## Libraries
+
+1.  Google Test  
+Imported from [GitHub](https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip) using FetchContent. 
+1.  FPM  
+Header-only fixed-point math library from [GitHub](https://github.com/MikeLankamp/fpm). The 3 headers are copied to `include/fpm`.
+1.  TCLAP  
+Header-only command-line processing library from [GitHub](https://github.com/mirror/tclap). 
+1.  TLX  
+Header-only template library from [GitHub](https://github.com/tlx/tlx)
+
 ## Computer Setup
 
 - [Setting up the Raspberry Pi](docs/raspberrypi.md)  
