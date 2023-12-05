@@ -1,0 +1,10 @@
+*.jls
+data4/*.jls
+data4/*.csv
+data4/*.npy
+data5/*.jls
+data6
+data*
+
+
+notebooks\.ipynb_checkpoints

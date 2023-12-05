@@ -51,7 +51,7 @@ See [Setting up the Raspberry Pi](docs/raspberrypi.md).
 
 - [Setting up the Raspberry Pi](docs/raspberrypi.md)  
 - [Setting up Windows WSL2 Ubuntu](docs/windows_swl2_ubuntu.md)  
-- [Setting up Windows 11 & Python](docs/windows_11_python.md)
+- [Setting up Windows 11 & Python](python/readme.md)
 
 ## Hardware setup
 
