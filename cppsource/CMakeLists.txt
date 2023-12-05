@@ -41,6 +41,7 @@ enable_testing()
 include_directories(include)
 include_directories(../3rdparty/fpm/include)
 include_directories(../3rdparty/tclap/include)
+include_directories(../3rdparty/tlx)
 
 find_library(WIRINGPI_LIBRARIES NAMES wiringPi)
 if(NOT WIRINGPI_LIBRARIES)
@@ -69,7 +70,7 @@ endif()
 
 add_executable(
   btree_test
-  test/btree_test.cpp include/tlx/die/core.cpp
+  test/btree_test.cpp ../3rdparty/tlx/tlx/die/core.cpp
 )
 target_compile_definitions(btree_test PUBLIC TLX_MORE_TESTS)
 

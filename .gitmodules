@@ -5,3 +5,6 @@
 	path = 3rdparty/tclap
 	url = https://github.com/mirror/tclap
 	branch = 1.4
+[submodule "3rdparty/tlx"]
+	path = 3rdparty/tlx
+	url = https://github.com/tlx/tlx
