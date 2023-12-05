@@ -67,7 +67,7 @@ sudo mv clang_12.0.1 /usr/local
 cd ~
 mkdir repos
 cd repos
-git clone https://github.com/bbelson2/coro_edge_energy.git
+git clone --recursive https://github.com/bbelson2/coro_edge_energy.git
 ```
 
 ## Building the C++ source
