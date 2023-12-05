@@ -81,6 +81,7 @@ cd ~/repos/coro_edge_energy/cppsource
 mkdir buildl
 cd buildl
 cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE="Release" ..
+make
 ```
 
 ## Running the experiment on the Raspberry Pi
