@@ -136,7 +136,7 @@ class Experiment:
         self.args = args
         self.experimentid = uuid.uuid4()
         self.winscriptfolder = os.path.dirname(os.path.realpath(__file__))
-        self.pirootfolder = '~/repos/vanet/Version7/'
+        self.pirootfolder = '~/repos/coro_edge_energy/cppsource/'
         self.script = self.pirootfolder + 'scripts/run_infer_l_sync.sh'
         self.reportfile = self.pirootfolder + f'results/{self.experimentid}_report.csv'
         self.perffile = self.pirootfolder + f'results/{self.experimentid}_perf.csv'
