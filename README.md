@@ -39,11 +39,13 @@ The C++ source builds and runs on the target platforms (Raspberry Pi 4 B & Raspb
 1.  Google Test  
 Imported from [GitHub](https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip) using FetchContent. 
 1.  FPM  
-Header-only fixed-point math library from [GitHub](https://github.com/MikeLankamp/fpm). The 3 headers are copied to `include/fpm`.
+Header-only fixed-point math library from [GitHub](https://github.com/MikeLankamp/fpm). 
 1.  TCLAP  
-Header-only command-line processing library from [GitHub](https://github.com/mirror/tclap). 
+Header-only command-line processing library from [GitHub](https://github.com/mirror/tclap). Note that this build requires branch `1.4`.
 1.  TLX  
-Header-only template library from [GitHub](https://github.com/tlx/tlx)
+Header-only template library from [GitHub](https://github.com/tlx/tlx).
+1.  WiringPi  
+See [Setting up the Raspberry Pi](docs/raspberrypi.md).
 
 ## Computer Setup
 
