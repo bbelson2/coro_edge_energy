@@ -8,7 +8,7 @@ This public repo contains the source code for the paper "Reducing Energy Consump
 
 Paper abstract:
 
-> Increasingly, machine learning inference is implemented on relatively low-powered edge devices, where battery life is a key performance criterion. In this work, we demonstrate how C++20 coroutines can be used to reorganise the execution order of an iterative inference task, specifically, a Prognostic and Health Management (PHM) application which receives streams of vibration data as envelope spectra from a wireless sensor network and locally processes them through an array of Support Vector Machines. In our experiments on an ARM Cortex A72 \& A53 64-bit SoCs, this method can reduce energy consumption for the task by up to 18\%, reduce overall energy use by up to 20\% and cut execution time by up to 20.5\%. Furthermore, peak power levels are reduced by up to 4.5\%, and peak current is reduced by up to 25 mA: this can increase the total battery life of rechargeable batteries. We demonstrate that the necessary changes to the C++ code are simple, repeatable and generally applicable to iterative inference tasks.
+> Increasingly, machine learning inference is implemented on relatively low-powered edge devices, where battery life is a key performance criterion. In this work, we demonstrate how C++20 coroutines can be used to reorganise the execution order of an iterative inference task on an edge device. A Prognostic and Health Management (PHM) application receives streams of vibration data as envelope spectra from a wireless sensor network and processes them locally through an array of Support Vector Machines. In our experiments on ARM Cortex A72 \& A53 64-bit SoCs, this method can reduce energy consumption for the task by up to 18\%, reduce overall energy use by up to 20\% and cut execution time by up to 20.5\%. Furthermore, peak power levels are reduced by up to 4.5\%, and peak current is reduced by up to 25 mA: this can increase the total battery life of rechargeable batteries. We demonstrate that the necessary changes to the C++ code are simple, repeatable and generally applicable to iterative inference tasks.
 
 ## Repository structure
 The repository is structured as follows:
@@ -18,10 +18,7 @@ The repository is structured as follows:
    |-- CMakeLists.txt (CMake file)
    |-- infer7.cpp (Main source file)
    |-- include
-       |-- fpm
        |-- perf
-       |-- tclap
-       |-- tlx
    |-- perf (Performance measurement code)
    |-- scripts
        |-- run_infer_l_sync.sh (Script to run experiment on Pi)
