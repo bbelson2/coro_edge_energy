@@ -2,7 +2,7 @@
 
 
 ## Introduction
-This public repo contains the source code for the paper "Reducing Energy Consumption for Machine Learning Inference on Edge Devices using C++20 Coroutines" by Bruce Belson, Jason Holdsworth and Bronson Philippa. The paper is currently under review for the [Elsevier Internet of Things journal](https://www.journals.elsevier.com/internet-of-things). 
+This public repo contains the source code for the paper "Reducing Energy Consumption for Machine Learning Inference on Edge Devices using C++20 Coroutines" by Bruce Belson, Jason Holdsworth and Bronson Philippa. The paper is currently under review for the [ACM Transactions on Embedded Computing Systems](https://dl.acm.org/journal/tecs). 
 
 <!-- The paper is currently available on [arXiv](https://arxiv.org/abs/2103.01984). -->
 
