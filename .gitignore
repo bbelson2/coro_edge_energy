@@ -37,3 +37,5 @@ buildl2
 buildl3
 
 notebooks\.ipynb_checkpoints
+/notebooks/.ipynb_checkpoints
+.ipynb_checkpoints/Untitled-checkpoint.ipynb
